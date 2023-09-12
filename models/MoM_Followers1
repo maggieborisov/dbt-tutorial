@@ -31,4 +31,4 @@ SELECT
         ELSE 'Same Growth as Last Month'
     END AS Growth_Comparison
 FROM SelfComparison s
-ORDER BY s.monthly_timeline DESC;
+ORDER BY s.monthly_timeline DESC
