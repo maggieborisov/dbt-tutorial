@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: MoM_Followers1
+    description: >
+      This model shows the monthly growth rate of "Katapult" and "Katapult Ocean". By comparing 
+      the growth rate against a median growth rate (average of both companies), we can assess 
+      each company's performance relative to the other. Using this, we can further explore 
+      reasons for the growth differences.
+    columns:
+      - name: organization_name
+        description: >
+          The company's name, either "Katapult" or "Katapult Ocean".
+      - name: monthly_timeline
+        description: >
+          Indicates the specific month for which growth rates and comparisons are made.
+          The timeline progresses month by month.
+      - name: MoM_Growth_Rate
+        description: >
+          This represents the Month-over-Month growth rate, showcasing how much a company has grown or shrunk compared to the previous month.
+      - name: Growth_Category
+        description: >
+          A categorization based on growth rate. It can be "Above the median growth", "Below the median growth", or "No Information" if data is missing.
+          The median growth rate is the average growth rate of both companies.
+          
+  - name: MoM_Followers2
+    description: >
+      This model presents the monthly growth rate of "Katapult" and "Katapult" Ocean by comparing each organization's growth rate to its performance in the previous month. 
+    columns:
+      - name: organization_name
+        description: >
+          The company's name, either "Katapult" or "Katapult Ocean".
+      - name: monthly_timeline
+        description: >
+          Represents the specific month for which growth rates and comparisons are assessed. 
+      - name: MoM_Growth_Rate
+        description: >
+          The Month-over-Month growth rate indicating the percentage change in followers compared to the previous month.
+      - name: Growth_Comparison
+        description: >
+          Describes the company's growth rate compared to its previous month's rate. Possible values include "Higher growth than last month", "Lower growth than last month",
+          "Same growth as last motnth", or "No Information" if data is absent.
