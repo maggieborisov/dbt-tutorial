@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Welcome to your new dbt project!
 
 ### Using the starter project
@@ -17,4 +17,9 @@ Try running the following commands:
 =======
 # dbt-tutorial
 DBT Quick Start Tutorial 
+=======
+(Your changes or the changes in your branch will be here)
+=======
+(Changes from the branch you're trying to merge will be here)
+>>>>>>> b02caa427120112805cf9ac474dc076744254fbd
 >>>>>>> origin/main
