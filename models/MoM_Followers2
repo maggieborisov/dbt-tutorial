@@ -28,4 +28,4 @@ SELECT
         ELSE 'Below Median Growth'
     END AS Growth_Category
 FROM GrowthRate g, MedianGrowth m
-ORDER BY g.monthly_timeline DESC;
+ORDER BY g.monthly_timeline DESC
